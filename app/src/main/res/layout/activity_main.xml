@@ -71,4 +71,14 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.819" />
 
+    <Button
+        android:id="@+id/Syunyubutton"
+        android:layout_width="65dp"
+        android:layout_height="39dp"
+        android:backgroundTint="#5B009688"
+        android:text="収入"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="17dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
