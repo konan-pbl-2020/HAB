@@ -7,7 +7,7 @@
     tools:context=".Other">
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/Sisyutubutton"
         android:layout_width="57dp"
         android:layout_height="36dp"
         android:backgroundTint="#56009688"
