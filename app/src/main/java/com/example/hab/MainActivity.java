@@ -12,7 +12,12 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     private EditText editText;
+    private EditText editText2;
+    private EditText editText3;
     private TextView textView;
+    public static String date;
+    public static String naiyo;
+    public static String kingaku;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,19 +38,26 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button touButton = (Button)findViewById(R.id.Tourokubutton);
+
         editText = findViewById(R.id.Date);
+        editText2 = findViewById(R.id.Naiyou);
+        editText3 = findViewById(R.id.Kingagku);
 
         textView = findViewById(R.id.textView);
 
-        Button button = findViewById(R.id.Tourokubutton);
 
-        button.setOnClickListener(new View.OnClickListener() {
+        touButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // エディットテキストのテキストを取得
-                String text = editText.getText().toString();
+                date = editText.getText().toString();
+                naiyo = editText2.getText().toString();
+                kingaku = editText3.getText().toString();
                 // 取得したテキストを TextView に張り付ける
-                textView.setText(text);
+                textView.setText(date);
+                Intent intent = new Intent(MainActivity.this,List_Graph.class);
+                startActivity(intent);
             }
         });
     }
