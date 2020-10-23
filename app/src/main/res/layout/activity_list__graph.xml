@@ -4,15 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Other">
+    tools:context=".List_Graph">
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="57dp"
-        android:layout_height="36dp"
-        android:backgroundTint="#56009688"
-        android:text="支出"
-        android:textAppearance="@style/TextAppearance.AppCompat.Small"
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="22dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
