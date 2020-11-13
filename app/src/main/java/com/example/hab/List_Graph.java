@@ -8,18 +8,21 @@ import android.widget.TextView;
 
 public class List_Graph extends AppCompatActivity {
 
-    private EditText editText;
     private TextView textView;
-    String date = MainActivity.date;
-    String naiyo = MainActivity.naiyo;
-    String kingaku = MainActivity.kingaku;
+    private TextView textView2;
+    private TextView textView3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list__graph);
 
-        date = editText.getText().toString();
-        textView.setText(date);
+        textView = findViewById(R.id.textView1);
+        textView2 = findViewById(R.id.textView2);
+        textView3 = findViewById(R.id.textView3);
+
+        textView.setText(MainActivity.date);
+        textView2.setText(MainActivity.naiyo);
+        textView3.setText(MainActivity.kingaku);
     }
 }

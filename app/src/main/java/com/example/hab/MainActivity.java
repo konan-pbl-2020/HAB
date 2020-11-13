@@ -14,7 +14,6 @@ public class MainActivity extends AppCompatActivity {
     private EditText editText;
     private EditText editText2;
     private EditText editText3;
-    private TextView textView;
     public static String date;
     public static String naiyo;
     public static String kingaku;
@@ -44,8 +43,6 @@ public class MainActivity extends AppCompatActivity {
         editText2 = findViewById(R.id.Naiyou);
         editText3 = findViewById(R.id.Kingagku);
 
-        textView = findViewById(R.id.textView);
-
 
         touButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -54,8 +51,7 @@ public class MainActivity extends AppCompatActivity {
                 date = editText.getText().toString();
                 naiyo = editText2.getText().toString();
                 kingaku = editText3.getText().toString();
-                // 取得したテキストを TextView に張り付ける
-                textView.setText(date);
+
                 Intent intent = new Intent(MainActivity.this,List_Graph.class);
                 startActivity(intent);
             }
