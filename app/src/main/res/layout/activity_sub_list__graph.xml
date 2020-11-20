@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#28F44336"
     tools:context=".SubList_Graph">
 
     <androidx.constraintlayout.widget.Barrier

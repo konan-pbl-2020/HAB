@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#28F44336"
     tools:context=".Other">
 
     <Button
         android:id="@+id/Sisyutubutton"
         android:layout_width="65dp"
         android:layout_height="39dp"
-        android:backgroundTint="#56009688"
+        android:backgroundTint="#79E91E63"
         android:text="支出"
         android:textAppearance="@style/TextAppearance.AppCompat.Small"
         tools:layout_editor_absoluteX="23dp"
@@ -20,6 +21,7 @@
         android:id="@+id/subbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#79E91E63"
         android:text="登録"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
