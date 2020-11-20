@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".List_Graph"></activity>
+        <activity android:name=".SubList_Graph"></activity>
+        <activity android:name=".List_Graph" />
         <activity android:name=".Other" />
         <activity android:name=".MainActivity">
             <intent-filter>

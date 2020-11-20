@@ -4,22 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".List_Graph">
-
-    <TableLayout
-        android:id="@+id/TableLayout1"
-        android:layout_width="406dp"
-        android:layout_height="297dp"
-        android:gravity="clip_horizontal|center"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.137">
-
-    </TableLayout>
+    tools:context=".SubList_Graph">
 
     <androidx.constraintlayout.widget.Barrier
         android:id="@+id/barrier"
@@ -27,12 +12,11 @@
         android:layout_height="wrap_content"
         app:barrierDirection="top" />
 
-
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView2"
         android:layout_width="100dp"
         android:layout_height="26dp"
-        android:text="収入額"
+        android:text="支出額"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -42,7 +26,7 @@
         app:layout_constraintVertical_bias="0.721" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textView6"
         android:layout_width="100dp"
         android:layout_height="26dp"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
@@ -52,4 +36,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.721" />
+
+    <TableLayout
+        android:id="@+id/TableLayout2"
+        android:layout_width="413dp"
+        android:layout_height="301dp"
+        android:gravity="clip_horizontal|center"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.222">
+
+
+    </TableLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
