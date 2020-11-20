@@ -83,5 +83,6 @@ public class List_Graph extends AppCompatActivity {
         TextView textView5 = (TextView)findViewById(R.id.textView5);
         textView5.setText(String.valueOf(sum));
 
+
     }
 }
