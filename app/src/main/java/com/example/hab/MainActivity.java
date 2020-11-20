@@ -45,8 +45,12 @@ public class MainActivity extends AppCompatActivity {
                 naiyo = editText2.getText().toString();
                 kingaku = editText3.getText().toString();
 
+
+
+
                 Intent intent = new Intent(MainActivity.this,List_Graph.class);
                 startActivity(intent);
+
             }
         });
     }
